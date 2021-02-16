@@ -1,0 +1,11 @@
+server:
+  port: 8085
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
+
+spring:
+  profiles:
+    active: message,pg
